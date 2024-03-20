@@ -1,0 +1,43 @@
+/* Navbar.css */
+nav {
+  background-color: #003366; /* Dark blue background */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.5); /* Add focus outline for accessibility */
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Adjust the activeSample display box */
+.activeSample {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
